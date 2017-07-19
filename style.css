@@ -1,0 +1,77 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'LATO', sans-serif;
+}
+
+p {
+    position: fixed;
+    top: 30%;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100px;
+            width: 100px;
+            color: white;
+            background-color: red;
+            border-radius: 100%;
+            outline: none;
+}
+
+.topRight {
+    top: 9%;
+    left: 96%;
+}
+
+.topLeft {
+    top: 9%;
+    left: 4%;
+}
+
+.bottomRight {
+    top: 92%;
+    left: 4%;
+}
+
+.bottomLeft {
+    top: 92%;
+    left: 96%;
+}
+
+
+.smallButton {
+    transform: scale(0.5);
+    position: absolute;
+    left: 93%;
+    top: 84%;
+}
+
+.smallerButton {
+    transform: scale(0.2);
+    position: absolute;
+    top: 50%;
+    left: 6%;
+}
+
+.smallestButton {
+    position: absolute;
+    top: 26.7%;
+    left: 47.1%;
+    transform: scale(0.05);
+    z-index: 9999 !important;
+}
